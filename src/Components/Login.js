@@ -7,7 +7,7 @@ export const Login = ({ onLogin }) => {
     <div className="Login">
       <button>
         <GoogleLogin
-          clientId="534042040906-qff5ftkdcklm1sfrs99ct4s794gkcvbv.apps.googleusercontent.com"
+          clientId="534042040906-qff5ftkdcklm1sfrs99ct4s794gkcvbv-www.apps.googleusercontent.com"
           onSuccess={(credentialResponse) => {
             console.log(credentialResponse);
             const authDetails = {
