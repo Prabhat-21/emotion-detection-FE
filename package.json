@@ -9,7 +9,6 @@
     "image-to-blob": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-google-login": "^5.2.2",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.2.0",
     "web-vitals": "^2.1.4"
