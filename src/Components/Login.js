@@ -5,6 +5,7 @@ import React from "react";
 export const Login = ({ onLogin }) => {
   return (
     <div className="Login">
+      <div className="background-image"></div>
       <button>
         <GoogleLogin
           clientId="534042040906-qff5ftkdcklm1sfrs99ct4s794gkcvbv-www.apps.googleusercontent.com"

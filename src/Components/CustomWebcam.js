@@ -29,7 +29,7 @@ function CustomWebcam({ captureImage }) {
         </>
       ) : (
         <>
-          <Webcam height={700} width={600} ref={webcamRef} />
+          <Webcam height={600} width={500} ref={webcamRef} />
           <div className="btn-container">
             <button onClick={capture}> Capture Photo</button>
           </div>

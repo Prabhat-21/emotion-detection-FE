@@ -3,8 +3,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Login } from "./Components/Login";
 import CustomWebcam from "./Components/CustomWebcam";
-import WebcamCaptureAndUpload from "./Components/WebcamCaptureAndUpload";
-import imageToBlob from "image-to-blob";
 
 function App() {
   const [image, setImage] = useState(null);
