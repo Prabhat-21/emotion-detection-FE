@@ -24,7 +24,7 @@
 
 .background-image {
     /* Set background image */
-    background-image: url('/Users/apple/Downloads/login-face-image.jpeg');
+    background-image: url('https://emotion-detect-bucket.s3.amazonaws.com/login-face-image.jpeg');
     /* Replace 'path_to_your_image.jpg' with the actual path to your image */
     background-size: cover;
     position: absolute;
