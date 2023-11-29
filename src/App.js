@@ -20,7 +20,7 @@ function App() {
       token: localStorage.getItem("token"),
     };
     axios
-      .post("http://localhost:5000/", formData, { headers: headers })
+      .post("http://13.233.118.85:5000/", formData, { headers: headers })
       .then((res) => {
         console.log("Axios response: ", res);
         const imageUrl = res["data"]["url"];
