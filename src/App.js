@@ -20,7 +20,7 @@ function App() {
       token: localStorage.getItem("token"),
     };
     axios
-      .post("http://13.233.118.85:5000/", formData, { headers: headers })
+      .post("http://3.108.58.182:5000/", formData, { headers: headers })
       .then((res) => {
         console.log("Axios response: ", res);
         const imageUrl = res["data"]["url"];
@@ -87,6 +87,10 @@ function App() {
   return (
     <div className="App">
       <h1 className="EDA">Emotion Detection Application</h1>
+      <meta
+        http-equiv="Content-Security-Policy"
+        content="upgrade-insecure-requests"
+      ></meta>
       {isLoggedIn ? <></> : <Login onLogin={setLogin}>Login</Login>}
       {isLoggedIn ? (
         <>
