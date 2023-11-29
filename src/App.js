@@ -87,10 +87,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="EDA">Emotion Detection Application</h1>
-      <meta
-        http-equiv="Content-Security-Policy"
-        content="upgrade-insecure-requests"
-      ></meta>
+
       {isLoggedIn ? <></> : <Login onLogin={setLogin}>Login</Login>}
       {isLoggedIn ? (
         <>
