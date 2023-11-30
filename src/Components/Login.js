@@ -14,7 +14,7 @@ export const Login = ({ onLogin }) => {
             const authDetails = {
               response: credentialResponse,
             };
-            fetch("http://65.2.6.196:5000/auth", {
+            fetch("https://43.204.101.29:5000/auth", {
               method: "POST",
               body: JSON.stringify(authDetails),
               headers: {
